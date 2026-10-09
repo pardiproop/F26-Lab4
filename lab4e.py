@@ -7,4 +7,3 @@
 # Usage: ./lab4e.py
 
 # Follow the instructions from readme.md.
-

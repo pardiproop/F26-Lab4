@@ -10,6 +10,10 @@
 # @Function definition: add definition here
 # @param: write parameters here
 # @return: write return value here
+def even_numbers(mylist):
+    even_numbers=[]
+    for mylist in numbers:
+        if mylist % 2==0:
 
 
 # TO DO 2: Create the function.

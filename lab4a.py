@@ -18,6 +18,8 @@ def is_even(mylist):
     for number in mylist:
         if number % 2==0:
             return True
-        else:
-            return False
-print(mylist)
+            break
+    return False
+mylist=[4, 1, 6, 9, 7, 2]
+result=is_even(mylist)
+print(result)

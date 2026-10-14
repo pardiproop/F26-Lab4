@@ -8,8 +8,10 @@
 # Follow the instructions from readme.md.
 def sum(num1, num2):
     return num1+num2
-num1=int(input("Number 1: "))
-num2=int(input("Number 2: "))
-
-if __name__ == __main__:
+def main():
+    num1=int(input("Enter a Number: "))
+    num2=int(input("Enter Another Number: "))
+    result=sum(num1, num2)
+    print("The Result:", result)
+if __name__ == "__main__":
     main()

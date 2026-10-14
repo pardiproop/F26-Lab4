@@ -24,5 +24,8 @@ def main():
     compute(13,45,'-')
     compute(13,45,'+')
     compute(13,45)  # since only two parameters are passed the default value of symbol should be used.
+    operation=input("Enter a Operation: ")
     result=compute(num1, num2, operation)
     print("The Result:", result)
+if __name__ == "__main__":
+    main()

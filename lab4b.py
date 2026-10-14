@@ -11,11 +11,15 @@
 # @param: write parameters here
 # @return: write return value here
 def even_numbers(mylist):
-    even_numbers=[]
-    for mylist in numbers:
-        if mylist % 2==0:
-
 
 # TO DO 2: Create the function.
+    newlist=[]
+    for number in mylist:
+        if number%2==0:
+            newlist.append(number)
+    return newlist
 
 # TO DO 3: Call the function.
+mylist=[2, 1, 6, 5, 3, 4, 8, 9]
+result=even_numbers(mylist)
+print(result)
